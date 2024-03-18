@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+// using hooks for the first time
 function useCurrencyInfo(currency) {
   const [data, setData] = useState({});
   useEffect(() => {
